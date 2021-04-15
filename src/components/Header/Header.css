@@ -6,7 +6,6 @@
 
 .header{
     position: relative;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 
@@ -26,6 +25,14 @@
     object-fit: contain;
     height: 1.5rem;
 
+}
+
+.header__middle{
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
 }
 
 
