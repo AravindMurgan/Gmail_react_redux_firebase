@@ -13,7 +13,7 @@ function Header() {
 
 				<img
                     className='gmail__logo'
-					src='https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-0.png'
+					src='https://cdn.freelogovectors.net/wp-content/uploads/2018/04/gmail-logo.png'
 					alt=''
 				/>
 			</div>
