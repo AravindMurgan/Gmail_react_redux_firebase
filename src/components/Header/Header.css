@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header__left > img{
+    object-fit: contain;
+    height: 10rem;
+
+}
+
+
+/* .gmail__logo{
+    height: 25rem;
+    width: 25rem;
+} */
