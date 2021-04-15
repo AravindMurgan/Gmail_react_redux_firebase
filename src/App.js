@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      
+      <h1>Hello React Redux , im back!!!</h1>
+      <Header />
     </div>
   );
 }
