@@ -1,9 +1,9 @@
 import React from 'react';
 import './SidebarOption.css';
 
-function SidebarOption({ Icon, title, number }) {
+function SidebarOption({ Icon, title, number,selected }) {
 	return (
-		<div className='sidebarOption'>
+		<div className={`sidebarOption ${selected && 'sidebarOption--active'}`}>
 			<div className='inbox-icon'>
 				<Icon />
 			</div>

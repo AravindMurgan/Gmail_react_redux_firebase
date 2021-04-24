@@ -29,6 +29,10 @@
 }
 
 .sidebarOption > p {
+    
     display: none;
     font-weight: 300;
+}
+.sidebarOption:hover > p{
+    display: inline;
 }
