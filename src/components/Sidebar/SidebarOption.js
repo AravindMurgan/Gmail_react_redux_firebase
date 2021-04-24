@@ -1,7 +1,7 @@
 import React from 'react';
 import './SidebarOption.css';
 
-function SidebarOption({ Icon, title, number,selected }) {
+function SidebarOption({ Icon, title, number, selected }) {
 	return (
 		<div className={`sidebarOption ${selected && 'sidebarOption--active'}`}>
 			<div className='inbox-icon'>
@@ -9,6 +9,9 @@ function SidebarOption({ Icon, title, number,selected }) {
 			</div>
 
 			<h3>{title}</h3>
+			<br/>
+			<br/>
+			<br/>
 			<p>{number}</p>
 		</div>
 	);

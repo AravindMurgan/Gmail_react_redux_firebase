@@ -7,11 +7,16 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     cursor: pointer;
+    width: 100%;
 }
 
 .sidebarOption:hover,
 .sidebarOption:hover > p,
-.sidebarOption:hover > h3{
+.sidebarOption:hover > h3,
+.sidebarOption--active,
+.sidebarOption--active > p,
+.sidebarOption--active > h3
+{
     background-color: #fcecec;
     color: #c04b37;
     font-weight: 800 !important;
@@ -19,6 +24,7 @@
 
 .sidebarOption > .inbox-icon{
     padding: 5px;
+    margin-right: 10px;
 }
 
 .sidebarOption > h3{
@@ -33,6 +39,11 @@
     display: none;
     font-weight: 300;
 }
+
+.sidebarOption--active > p{
+    display: inline !important;
+}
+
 .sidebarOption:hover > p{
     display: inline;
 }
