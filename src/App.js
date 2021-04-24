@@ -8,11 +8,11 @@ import Sidebar from './components/Sidebar/Sidebar';
 function App() {
 	return (
 		<Router>
-			<div className='App'>
+			<div className='app'>
 				<Header />
-
+				
 				<div className='app__body'>
-					<Sidebar />
+				<Sidebar />
 
 					<Switch>
 						<Route path='/mail'>
