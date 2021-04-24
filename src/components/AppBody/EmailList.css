@@ -1,6 +1,9 @@
 .emailList{
     flex:1;
     overflow: scroll;
+    position: absolute;
+    left: 5rem;
+
 }
 
 .emailList__settings{
